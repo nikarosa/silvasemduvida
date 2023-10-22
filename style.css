@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+body{
+    background: #ffffeb;
+    width: 100%;
+}
+/* header */
+.nome{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3em;
+    color: #ffffeb;
+    text-shadow: 0 0 .5em #00000040;
+}
+.colecao{
+    color: #000;
+    font-weight: 600;
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+}
+.colecao:hover{
+    color: #813405;
+    font-weight: 600;
+    transition: .3s;
+}
+.movie{
+    /* border: 2px solid #e28413 !important;
+    color: #e28413; */
+    border: 2px solid #a6a6a6;
+    color: #a6a6a6;
+    cursor: not-allowed !important;
+}
+.movie:hover{
+    /* border: 2px solid #000 !important; */
+    border: 2px solid #a6a6a6;
+    color: #a6a6a6;
+    cursor: not-allowed !important;
+    background: none;
+}
+.hable{
+    border: 2px solid #e28413;
+    background: #e28413;
+    color: #fff;
+}
+.hable:hover{
+    border: 2px solid #e28413;
+    color: #e28413;
+}
+.btn{
+    font-family: 'Open Sans', sans-serif;
+}
+/* meio */
+.titulo{
+    font-family: 'Archivo Black', sans-serif;
+    color: #813405;
+}
+.meio{
+    height: 70vh;
+    width:40%;
+    background: none;
+    margin: 0 -40px 0 20px;
+    padding: none;
+}
+.inicio{
+    height: 80%;
+    width: 100%;
+    border: none;
+    border-radius: 15px 0 0 15px ;
+    background-image: url(namesa.png);
+    background-position: 45%;
+    background-size: cover;
+    margin: 0;
+}
+.lead{
+    font-family: 'Open Sans', sans-serif;
+}
+/* footer */
+.nome-footer{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.5em;
+    color: #ffffeb;
+    text-shadow: 0 0 .5em #00000040;
+    margin: 0 15px 0 0;
+}
+/* .footer{
+    position: absolute;
+    bottom: 0;
+    margin: 0 7vw;
+} */
+
+
+/* em breve */
+.soon{
+    font-family: 'Archivo Black', sans-serif;
+    height: 80vh;
+    width: 95vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    text-transform: uppercase;
+    color: #813405;
+}
+.soon p{
+    width: 50%;
+    text-align: center;
+}

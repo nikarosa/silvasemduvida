@@ -16,11 +16,15 @@ body{
     font-weight: 600;
     font-family: 'Archivo Black', sans-serif;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .colecao:hover{
     color: #813405;
     font-weight: 600;
     transition: .3s;
+}
+.colecao:focus{
+    color: #813405;
 }
 .movie{
     /* border: 2px solid #e28413 !important;
@@ -104,4 +108,55 @@ body{
 .soon p{
     width: 50%;
     text-align: center;
+}
+
+/* responsividade */
+@media  screen and (max-width: 999px) {
+    .colecao{
+        font-size: .8em;
+    }
+    .botao{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .btn{
+        font-size: .8em;
+    }
+    .todomeio{
+        padding: 0 !important;
+    }
+    .titulo{
+        font-size: 3em;
+    }
+    .lead{
+        font-size: 1em;
+    }
+    .meio{
+        width: 100%;
+        margin: 0;
+        height: 40vh;
+    }
+    .inicio{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        background-position: center center;
+    }
+    .nome-footer{
+        width: 20%;
+        margin-left: 15px;
+    }
+    .dados{
+        margin: 0 !important;
+        font-size: .8em;
+    }
+    .social li svg{
+        width: 50px !important;
+        height: 50px !important;
+        margin: 30px 35px 0 35px;
+    }
+    .soon{
+        font-size: 2em;
+    }
 }
